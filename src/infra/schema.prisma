@@ -1,6 +1,6 @@
 datasource db {
-    provider = "postgresql"
-    url      = "postgresql://user:password@localhost:5432/database"
+    provider = "sqlite"
+    url      = "file:dev.db"
 }
 
 model List {
