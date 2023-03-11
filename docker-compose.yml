@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: mateus
+      POSTGRES_PASSWORD: puto123
+      POSTGRES_DB: todoapp
+    ports:
+      - "5432:5432"
